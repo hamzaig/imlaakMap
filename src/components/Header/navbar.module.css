@@ -1,0 +1,46 @@
+.navbar {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.8rem 0;
+}
+
+.navbar a {
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+  color: #004274;
+}
+
+.logo {
+  flex: 2;
+}
+
+.logo img {
+  max-height: 60px;
+}
+
+.menu {
+  flex: 6;
+  display: flex;
+  justify-content: space-around;
+}
+
+.auth {
+  display: inline-block;
+  margin-left: 12px;
+  padding-left: 64px;
+  flex: 3;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 24px;
+}
+
+.auth a {
+  padding: 14px 36px;
+  color: white;
+  background-color: #004274;
+}
